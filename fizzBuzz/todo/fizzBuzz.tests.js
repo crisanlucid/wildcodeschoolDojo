@@ -1,5 +1,5 @@
 var assert = require('assert');
-var fizzBuzz = require('./fizzBuzz');
+var toCamelCase = require('./fizzBuzz.js');
 
 describe('To Camel Case', function(){
 
@@ -7,42 +7,39 @@ describe('To Camel Case', function(){
         assert.equal(true, true);
     })
 
-    it('Should return fizz', function(){
+    xit('Should return fizz', function(){
         assert.equal("fizz", fizzBuzz(3));
     })
 
-    it('Should return fizz', function(){
+    xit('Should return fizz', function(){
         assert.equal("fizz", fizzBuzz(6));
         assert.equal("fizz", fizzBuzz(18));
     })
 
-    it('Should return buzz', function(){
+    xit('Should return buzz', function(){
         assert.equal("buzz", fizzBuzz(5));
     })
 
-    it('Should return buzz', function(){
+    xit('Should return buzz', function(){
         assert.equal("buzz", fizzBuzz(10));
         assert.equal("buzz", fizzBuzz(25));
     })
 
-    it('Should return fizzbuzz', function(){
+    xit('Should return fizzbuzz', function(){
         assert.equal("fizzbuzz", fizzBuzz(15));
     })
 
-    it('Should return fizzbuzz', function(){
+    xit('Should return fizzbuzz', function(){
         assert.equal("fizzbuzz", fizzBuzz(30));
         assert.equal("fizzbuzz", fizzBuzz(150));
     })
 
-    it('Should return 2', function(){
+    xit('Should return 2', function(){
         assert.equal("2", fizzBuzz(2));
     })
 
-    it('Should return 8 and 52', function(){
+    xit('Should return 8 and 52', function(){
         assert.equal("8", fizzBuzz(8));
         assert.equal("52", fizzBuzz(52));
-    })
-    it('Should return 4', function () {
-        assert.equal(4, fizzBuzz(4));
     })
 })
