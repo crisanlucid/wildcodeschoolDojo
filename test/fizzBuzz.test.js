@@ -1,5 +1,5 @@
 var assert = require('assert');
-var fizzBuzz = require('./fizzBuzz.js');
+var fizzBuzz = require('./fizzBuzz');
 
 describe('To Camel Case', function(){
 
