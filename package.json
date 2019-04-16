@@ -1,8 +1,8 @@
 {
-  "name": "fizzbuzz",
+  "name": "dojo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/7NXT/MDK-v2.git"
+    "url": "git@github.com:crisanlucid/wildcodeschoolKata.git"
   },
   "author": "",
   "private": true,
