@@ -48,13 +48,11 @@ module.exports = function (number) {
     let resultRoman = '';
     let restNumber = number;
 
-    //1000
     if (number / 1000 > 1) {
         resultRoman += "M".repeat(Math.floor(number / 1000));
         restNumber = number - (Math.floor(number / 1000) * 1000);
     }
 
-    //100
     if (restNumber / 900 > 1) {
         resultRoman += "CM";
         restNumber = restNumber - 900;
@@ -72,7 +70,6 @@ module.exports = function (number) {
         restNumber = restNumber - (Math.floor(restNumber / 100) * 100);
     }
 
-    //10
     if (restNumber / 90 > 1) {
         resultRoman += "XC";
         restNumber = restNumber - 90;
@@ -90,7 +87,6 @@ module.exports = function (number) {
         restNumber = restNumber - (Math.floor(restNumber / 10) * 10);
     }
 
-    //1
     resultRoman += listObject[restNumber];
     return resultRoman;
 }
